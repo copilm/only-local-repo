@@ -1,3 +1,5 @@
 <%
-Response.write("Hello world!")
+Dim strName
+	strName = "Mike"
+Response.write("Hello " & strName & "!")
 %>
